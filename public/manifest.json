@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Making Stuffs",
+  "name": "Full Stack Web Developer",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +8,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo-125x125.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "125x125"
     },
     {
-      "src": "logo512.png",
+      "src": "logo-450x450.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "450x450"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#000a00",
+  "background_color": "#000a00"
 }
