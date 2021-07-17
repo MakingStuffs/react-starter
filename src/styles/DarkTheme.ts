@@ -6,9 +6,16 @@ const darkTheme: Theme = {
     white: "var(--white)",
     primary: "var(--primary)",
     secondary: "var(--secondary)",
+    tertiary: "var(--tertiary)",
     accent: "var(--accent)",
     dark: "var(--dark)",
     light: "var(--light)",
+    facebook: "var(--facebook)",
+    linkedin: "var(--linkedin)",
+    github: "var(--github)",
+    fcc: "var(--fcc)",
+    stackoverflow: "var(--stackoverflow)",
+    twitter: "var(--twitter)",
   },
   spacing: {
     small: {

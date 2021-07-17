@@ -3,6 +3,7 @@ import {
   FaStackOverflow,
   FaGithub,
   FaTwitter,
+  FaFreeCodeCamp,
 } from "react-icons/fa";
 import styled from "styled-components";
 import { siteInfo } from "../../config";
@@ -45,17 +46,26 @@ const getSocialIcons = (networks: string[]) =>
           url: siteInfo.socialLinks?.stackOverflow as string,
         });
         break;
+      case "fcc":
+        op.push({
+          name: "Free Code Camp",
+          icon: <FaFreeCodeCamp size={30} />,
+          url: siteInfo.socialLinks?.fcc as string,
+        });
+        break;
       default:
         break;
     }
     return op;
   }, []);
 
-const SocialIcons: React.FC = () => {
+const SocialIcons: React.FC<React.HTMLAttributes<HTMLUListElement>> = ({
+  ...rest
+}) => {
   const networks = Object.keys(siteInfo.socialLinks as SocialLinksInterface);
 
   return (
-    <StyledSocialIcons data-testid="social-icons">
+    <StyledSocialIcons {...rest}>
       {getSocialIcons(networks).map((network, i) => (
         <li key={`social-icon-${i}`}>
           <a

@@ -1,5 +1,13 @@
+import { HomeHeader } from "../../components/Header";
+
 const Home: React.FC = () => {
-  return <h1>Home</h1>;
+  return (
+    <HomeHeader
+      heading="Paul Singh"
+      subHeading="// JavaScript && nature enthusiast"
+      showSocials={true}
+    />
+  );
 };
 
 export default Home;
