@@ -15,4 +15,5 @@ export interface SocialLinksInterface {
   linkedIn?: string;
   gitHub?: string;
   stackOverflow?: string;
+  fcc?: string;
 }

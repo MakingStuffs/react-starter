@@ -5,10 +5,13 @@ import { Theme } from "./types";
  * use our Theme interface to ensure we can use our theme as props
  */
 export default createGlobalStyle<{ theme: Theme }>`
+
+    :root {
+        --vh: calc(100vh * 0.01);
+    }
+
     * {
         box-sizing: inherit;
-        margin: inherit;
-        padding: inherit;
     }
     
     html {

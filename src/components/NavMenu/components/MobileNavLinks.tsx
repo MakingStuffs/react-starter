@@ -10,7 +10,7 @@ const MobileNavLinks: React.FC<
     logo?: string;
   } & React.HTMLAttributes<HTMLElement>
 > = ({ navLinks, logo, ...rest }) => {
-  const [drawerOpen, setDrawerOpen] = useState<boolean>(false);
+  const [drawerOpen, setDrawerOpen] = useState<boolean>(true);
 
   const handleDrawerToggle = () => setDrawerOpen(!drawerOpen);
 

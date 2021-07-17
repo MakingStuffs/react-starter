@@ -2,11 +2,18 @@ export interface Theme {
   pallette: {
     primary: string;
     secondary: string;
+    tertiary: string;
     accent: string;
     black: string;
     white: string;
     dark: string;
     light: string;
+    facebook: string;
+    linkedin: string;
+    github: string;
+    fcc: string;
+    stackoverflow: string;
+    twitter: string;
   };
   colors: {
     main: {

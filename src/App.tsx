@@ -6,8 +6,17 @@ import NavMenu from "./components/NavMenu";
 import { Home } from "./pages";
 import { navLinks } from "./config";
 import logo from "./assets/images/logo-letters-light-125x125.png";
+import { useEffect } from "react";
 
 function App() {
+  // get accurate viewport height on page load
+  useEffect(() => {
+    document.documentElement.style.setProperty(
+      "--vh",
+      `${window.innerHeight * 0.01}px`
+    );
+  }, []);
+
   return (
     <Providers>
       <GlobalFonts />
