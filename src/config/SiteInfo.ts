@@ -7,6 +7,7 @@ const siteInfo: SiteInfoInterface = {
     twitter: "https://twitter.com/makingstuffs",
     linkedIn: "https://www.linkedin.com/in/makingstuffs/",
     gitHub: "https://github.com/MakingStuffs",
+    fcc: "https://www.freecodecamp.org/makingstuffs",
     stackOverflow:
       "https://stackoverflow.com/users/10675155/makingstuffs?tab=profile",
   },
