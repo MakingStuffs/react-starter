@@ -21,6 +21,7 @@ export default createGlobalStyle<{ theme: Theme }>`
     }
 
     body {
+        margin: 0;
         font-family: Roboto;
         background-color: ${({ theme }) => theme.colors.main.backgroundColor};
         color: ${({ theme }) => theme.colors.main.textColor};

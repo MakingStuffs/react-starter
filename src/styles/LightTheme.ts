@@ -49,6 +49,11 @@ const lightTheme: Theme = {
       textColor: "",
       header: "",
     },
+    section: {
+      backgroundColor: "var(--dark)",
+      textColor: "var(--white)",
+      header: "",
+    },
     nav: {
       backgroundColor: "",
       textColor: "",

@@ -9,6 +9,8 @@ const Section: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
 
 const StyledSection = styled.section`
   padding: ${({ theme }) => theme.spacing.small.y};
+  background-color: ${({ theme }) => theme.colors.section.backgroundColor};
+  color: ${({ theme }) => theme.colors.section.textColor};
 `;
 
 export default Section;
