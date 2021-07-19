@@ -6,6 +6,7 @@
 declare global {
   module "*.woff";
   module "*.png";
+  module "*.jpg";
 }
 
 export {};
