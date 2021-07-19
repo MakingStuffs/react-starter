@@ -33,6 +33,11 @@ export interface Theme {
       textColor: string;
       header: string;
     };
+    section: {
+      backgroundColor: string;
+      textColor: string;
+      header: string;
+    };
     nav: {
       backgroundColor: string;
       textColor: string;

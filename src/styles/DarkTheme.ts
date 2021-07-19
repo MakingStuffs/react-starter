@@ -45,8 +45,13 @@ const darkTheme: Theme = {
       backgroundColor: "",
     },
     modal: {
-      backgroundColor: "",
-      textColor: "",
+      backgroundColor: "var(--dark)",
+      textColor: "var(--white)",
+      header: "",
+    },
+    section: {
+      backgroundColor: "var(--dark)",
+      textColor: "var(--white)",
       header: "",
     },
     nav: {
